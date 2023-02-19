@@ -29,11 +29,7 @@ public class DictionaryApp {
             if (answer.equalsIgnoreCase(translates[index])) {
                 correct++;
                 System.out.println("Correct 😊");
-            } else {
-                incorrect++;
-                System.out.println("Incorrect 🤔");
-                System.out.println("Correct answer \"" + translates[index] + "\"");
-            }
+            } else
 
             if (correct + incorrect >= 5) break;
         }
