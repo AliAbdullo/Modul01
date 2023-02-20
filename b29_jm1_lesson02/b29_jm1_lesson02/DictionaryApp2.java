@@ -7,7 +7,7 @@ public class DictionaryApp2 {
         Scanner scanner = new Scanner(System.in);
 
         String[] words = {"pen","cup","pencil","window","table","chair"};
-        String[] translates = {"ruchka","piyola","qalam","oyna","stol","stul"};
+        String[] translates = {"ruchka","chashka","qalam","oyna","stol","stul"};
 
         /*for (int i = 0; i < words.length; i++) {
             System.out.println(words[i] +"  -   "+ translates[i]);
@@ -17,8 +17,7 @@ public class DictionaryApp2 {
         int incorrect = 0;
         int [] massiv = {0,1,2,3,4,5};
 
-        System.out.println();
-          for(int i = 0; i < words.length; i++){
+        for(int i = 0; i < words.length; i++){
               int index = random.nextInt(words.length);
 
               if(index == massiv[index]){
@@ -43,7 +42,7 @@ public class DictionaryApp2 {
               else {
                   i--;
               }
-          }
+        }
 
 
         System.out.println();
