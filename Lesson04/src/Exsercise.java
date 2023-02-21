@@ -61,8 +61,10 @@ public class Exsercise {
             System.out.println(" juft ");
         }else {
             System.out.println("toq");
-        }
-        //5-
+        }*/
+//        4.2-version
+
+       /* //5-
         int a = 14;
         int b = 4;
         if (a > b){
