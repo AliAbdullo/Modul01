@@ -13,12 +13,13 @@ public class App1 {
 
         int b = 500;
         {
-            System.out.println("b = " + b);
+//            System.out.println("b = " + b);
             int a = 10;
         }
 
         System.out.println("b = " + b);
-
+        int son = scanner.nextInt();
+        System.out.println("son = " + son);
 
 
     }
