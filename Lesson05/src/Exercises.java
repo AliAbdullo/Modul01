@@ -227,7 +227,24 @@ public class Exercises {
         System.out.println(sign + str);*/
 //        13 Task
 
+/*        int num = 5;
+        if (num > 0) {
+            double sum = 1.0;
+            for (int i = 0; i <= num; i++) {
+                sum += (double) i / 10;
+            }
+            System.out.println(sum);
+        }*/
 
+
+        double price = 3.2;
+        System.out.print("How much does the candy weigh: ");
+        int candyWeight = scanner.nextInt();
+
+        for (int i = 1; i <= candyWeight; i++) {
+            double sum = price * i;
+            System.out.println( i +" kg candy = $"+sum );
+        }
 
     }
 
