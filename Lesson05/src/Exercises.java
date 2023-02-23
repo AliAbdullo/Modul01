@@ -97,13 +97,13 @@ public class Exercises {
 
 //7
 /*      int num1 = 14;
-        int num2 = 9;
+        int num2 = 29;
         int num3 = 6;
-        if (num1 > num2 && num1 > num3) {
+        if (num1 < num2 && num1 < num3) {
             System.out.println(num2+ ","+num3);
-        } else if (num2 > num1 && num2 > num3) {
+        } else if (num2 < num1 && num2 < num3) {
             System.out.println(num1+","+num3);
-        }else {
+        }else if (num3 < num1 && num3 < num2) {
             System.out.println(num1+","+num2);
         }*/
 
@@ -237,17 +237,61 @@ public class Exercises {
         }*/
 
 
-        double price = 3.2;
+ /*       double price = 3.2;
         System.out.print("How much does the candy weigh: ");
         int candyWeight = scanner.nextInt();
 
         for (int i = 1; i <= candyWeight; i++) {
             double sum = price * i;
             System.out.println( i +" kg candy = $"+sum );
-        }
+        }*/
 
+/*        int a = 1;
+        int b = 9;
+        int sum = 0;
+
+        if (a < b) {
+            for ( a = 0; a <= b; a++) {
+                sum += a;
+            }
+            System.out.println(sum);
+        }*/
+
+
+/*        int num = 5;
+        if (num > 0) {
+            double sum = 0;
+            for (int i = 1; i <= num; i++) {
+                sum += (double) 1/i;
+            }
+            System.out.println(sum);
+        }*/
+//        System.out.println(powNumber(4,3));
+
+//        System.out.println(thirdPowOfNumber(8));
+//        System.out.println("factorialNumber(7) = " + factorialNumber(7));
     }
 
+
+/*    public static int thirdPowOfNumber(int num){
+         return (int) Math.pow(num,3);
+    }*/
+
+
+/*    public static int factorialNumber(int number){
+        if(number == 1) return 1;
+        return number * factorialNumber(number-1);
+    }*/
+
+/*    public static int add(int num1, int num2){
+        return num1 * num2;
+    }*/
+
+
+/*    public static int powNumber(int number, int pow){
+        if(pow == 1) return number;
+        return  number * powNumber( number , pow - 1);
+    }*/
 }
 
 

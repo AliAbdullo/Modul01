@@ -4,14 +4,14 @@ public class Fibonacci {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int resualt = task(5);
+        int resualt = fibo(5);
         System.out.println(resualt);
-        int fib1=task2(3);
+   /*     int fib1=task2(3);
         System.out.println(fib1);
-
+*/
     }
 
-    public static int task(int num) {
+    public static int fibo(int num) {
         Scanner scanner = new Scanner(System.in);
         num = scanner.nextInt();
         if (num == 0 || num == 1) {
@@ -29,7 +29,7 @@ public class Fibonacci {
             fibo_second = current;
 
         }
-        return current;
+        return fibo_second;
     }
     static int task2(int n){
         if(n <= 1)
