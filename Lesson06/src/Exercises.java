@@ -23,10 +23,22 @@ public class Exercises {
 
 //        metrS(7);
 
+//        task1("main", 2);
 
+        String s = "Car";
 
-
+        s.equalsIgnoreCase("car");
     }
+
+    public static void task1(String s, int index) {
+        if (s.length() >= index) {
+            int u = s.codePointAt(index);
+            System.out.println(u);
+        } else {
+            System.out.println("index xato kiritdiz");
+        }
+    }
+
 
     private static void metrS(double kmS) {
         double metrSekund = kmS / 3.6;
@@ -34,9 +46,9 @@ public class Exercises {
     }
 
     private static void juftToq(int a) {
-        if(a % 2 == 0){
+        if (a % 2 == 0) {
             System.out.println("Juft");
-        }else {
+        } else {
             System.out.println("Toq");
         }
     }
@@ -47,17 +59,17 @@ public class Exercises {
     }
 
     private static double mTokm(double milya) {
-        double km = (milya * 1609.344 )/1000;
+        double km = (milya * 1609.344) / 1000;
         return km;
     }
 
     private static double SLength(double radius) {
-        double AylanaUzunligi= radius * 2 *3.14;
+        double AylanaUzunligi = radius * 2 * 3.14;
         return AylanaUzunligi;
     }
 
     private static double fToC(double degree) {
-        double sel = (degree - 32)*5/9;
+        double sel = (degree - 32) * 5 / 9;
         return sel;
     }
 
@@ -65,7 +77,7 @@ public class Exercises {
         int sum = 0;
         while (a >= 1) {
             sum += a % 10;
-            a= a/10;
+            a = a / 10;
         }
         return sum;
     }
