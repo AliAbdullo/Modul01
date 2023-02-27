@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class Answer34 {
     public static void main(String[] args) {
         small(24, 45, 12);
         System.out.println(Tub(4));
-        ;
+        Scanner scanner = new Scanner(System.in);
     }
 
 //4
