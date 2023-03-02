@@ -1,4 +1,4 @@
-public class StringBufferExample {
+public class  StringBufferExample {
     public static void main(String[] args) {
         String str = "Java";
         StringBuffer strBuffer = new StringBuffer("Java");

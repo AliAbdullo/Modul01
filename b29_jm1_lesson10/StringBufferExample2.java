@@ -10,7 +10,7 @@ public class StringBufferExample2 {
         sb.append(" backend");
         System.out.println("sb = " + sb);
 
-        sb.insert(0, "b29");
+        sb.insert(0, "b29");    // Qayerdan qaysi elementni joylashni ko'rsatadi
         sb.insert(sb.length(), "b29");
         sb.insert(8, "b29 ");
         System.out.println("sb = " + sb);
