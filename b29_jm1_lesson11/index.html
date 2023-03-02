@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<tbody>
+<tr>
+    <td><code>%b, %B</code></td>
+    <td>Umumiy</td>
+    <td>true yoki false</td>
+    <td>
+        <ul>
+            <li>String.format("%b", true) -&gt; true</li>
+            <li>String.format("%B", false) -&gt; FALSE</li>
+            <li>String.format("%b", null) -&gt; false</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%h, %H</code></td>
+    <td>Umumiy</td>
+    <td>Ob'ekt hash kodining Hex ko'rinishi</td>
+    <td>
+        <ul>
+            <li>String.format("%h", new Student()) -&gt; 4554617c</li>
+            <li>String.format("%H", new Student()) -&gt; 4554617C</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%s, %S</code></td>
+    <td>Umumiy</td>
+    <td>String (matn,tekst)lar uchun ishlatiladi</td>
+    <td>
+        <ul>
+            <li>String.format("%s", "Alish") -&gt; Alish</li>
+            <li>String.format("%S", "Alish") -&gt; ALISH</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%d</code></td>
+    <td>char (ishora,belgi) lar</td>
+    <td>char(ishora, matn)lar uchun ishlatiladi</td>
+    <td>
+        <ul>
+            <li>String.format("%c", 'a') -&gt; a</li>
+            <li>String.format("%C", 'a') -&gt; A</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%d</code></td>
+    <td>integer</td>
+    <td>char(ishora, matn)lar uchun ishlatiladi</td>
+    <td>
+        <ul>
+            <li>String.format("%d", 22) -&gt; 22</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%o</code></td>
+    <td>integer</td>
+    <td>Octal sonlar (8 sanoq sistemasidagi sonlar) uchun ishlatiladi.</td>
+    <td>
+        <ul>
+            <li>String.format("%o", 10) -&gt; 8</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%x, %X</code></td>
+    <td>integer</td>
+    <td>Hexadecimal sonlar (16 sanoq sistemasidagi sonlar) uchun ishlatiladi.</td>
+    <td>
+        <ul>
+            <li>String.format("%x", 13) -&gt; d</li>
+            <li>String.format("%X", 13) -&gt; D</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%e, %E</code></td>
+    <td>floating point</td>
+    <td>e darajasidagi kasr sonlar uchun (ilmiy soxada ishlatiladi.)</td>
+    <td>
+        <ul>
+            <li>String.format("%e", 3.05f) -&gt; 3,050000e+00</li>
+            <li>String.format("%E", 4.05f) -&gt; 4,050000E+00</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%f</code></td>
+    <td>floating point</td>
+    <td>Kasr sonlar uchun.</td>
+    <td>
+        <ul>
+            <li>String.format("%f", 33.05) -&gt; 33,050000</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%g,%G</code></td>
+    <td>floating point</td>
+    <td>Kasr sonlar uchun, kasr qismini yaxlitlaydi.</td>
+    <td>
+        <ul>
+            <li>String.format("%g", 33.1234567) -&gt; 33.1235</li>
+            <li>String.format("%G", 33.490001f) -&gt; 33.4900</li>
+            <li>String.format("%G", 3,59111111) -&gt; 3,59111</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%a,%A</code></td>
+    <td>floating point</td>
+    <td>Hexadecimal kasr sonlar uchun. (0x1.4333333333333p3)</td>
+    <td>
+        <ul>
+            <li>String.format("%a", 13.5 ) -&gt; 0x1.bp3</li>
+            <li>String.format("%A", 1.8 ) -&gt; 0X1.CCCCCCCCCCCCDP0</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%t,%T</code></td>
+    <td>date/time</td>
+    <td>Sana (data) va vaqt(time) uchun ishlatiladi. Bu oddiy prefiks (oldida turadigan ishora). UNdan keyin
+        turadigan harflar bor. Ularni bir pastga alohida ko'ramiz.
+    </td>
+    <td>
+    </td>
+</tr>
+<tr>
+    <td><code>%%</code></td>
+    <td>percent</td>
+    <td>% (foizni) chiqarish uchun ishlatiladi.</td>
+    <td>
+        <ul>
+            <li>String.format("%S") -&gt; %</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+    <td><code>%n</code></td>
+    <td>line separator</td>
+    <td>Qatorlarni ajratadi. Hozirgi qatorni bo'lib yangi qatordan boshlaydi.</td>
+    <td>
+        <ul>
+            <li>Xuddi System.getProperty("line.separator") kabi ishlaydi.</li>
+        </ul>
+    </td>
+</tr>
+</tbody>
+
+</body>
+</html>
