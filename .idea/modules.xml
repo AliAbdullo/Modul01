@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Codingbat/Codingbat.iml" filepath="$PROJECT_DIR$/Codingbat/Codingbat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codingbatt/Codingbatt.iml" filepath="$PROJECT_DIR$/Codingbatt/Codingbatt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson12/Home/Home.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson12/Home/Home.iml" />
       <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson11/HomeWork11/HomeWork11.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson11/HomeWork11/HomeWork11.iml" />
       <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson03/Lesson03/Lesson03.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson03/Lesson03/Lesson03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson04/Lesson04.iml" filepath="$PROJECT_DIR$/Lesson04/Lesson04.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson09/b29_jm1_lesson09.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson09/b29_jm1_lesson09.iml" />
       <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson10/b29_jm1_lesson10.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson10/b29_jm1_lesson10.iml" />
       <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson11/b29_jm1_lesson11.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson11/b29_jm1_lesson11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/b29_jm1_lesson12/b29_jm1_lesson12.iml" filepath="$PROJECT_DIR$/b29_jm1_lesson12/b29_jm1_lesson12.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson01_with_ide/lesson01_with_ide.iml" filepath="$PROJECT_DIR$/lesson01_with_ide/lesson01_with_ide.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson08/lesson08.iml" filepath="$PROJECT_DIR$/lesson08/lesson08.iml" />
     </modules>
