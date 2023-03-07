@@ -1,10 +1,10 @@
 import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-//  3)	n ta elementdan tashkil topgan butun sonlar massivi berilgan. Toq indeksdagi elementlaridan alohida, juft indeksdagi elementlaridan alohida massivlar hosil qilib, ularni ekranga chiqaruvchi dastur tuzing.
+//  3)	n ta elementdan tashkil topgan butun sonlar massivi berilgan.
+//      Toq indeksdagi elementlaridan alohida, juft indeksdagi elementlaridan alohida massivlar hosil qilib,
+//      ularni ekranga chiqaruvchi dastur tuzing.
 //
 //      Input: arr = [10, -2, 37, 45, -51, -60, 7]
 //
@@ -17,26 +17,22 @@ public class Task3 {
     }
 
     private static void oddEven(int[] arr) {
-        int counter1=0;
-        int counter2=0;
 
-        for (int i = 0; i < arr.length; i++) {
-            if((i+1)%2==0){ counter1++;
-            }else{
-                counter2++;
-            }
+        int[] arrByOddIndex;
+        int[] arrByEvenIndex;
+        if (arr.length % 2 == 1) {
+            arrByOddIndex = new int[arr.length / 2];
+            arrByEvenIndex = new int[arr.length / 2 + 1];
+        } else {
+            arrByOddIndex = new int[arr.length / 2];
+            arrByEvenIndex = new int[arr.length / 2];
         }
-        int[] arrByOddIndex = new int[counter1];
-        int[] arrByEvenIndex = new int[counter2];
-
+        int k = 0;
+        int n = 0;
         for (int i = 0; i < arr.length; i++) {
-            if((i+1)%2==0){
-                arrByOddIndex[i]=i;
-            }else {
-                arrByEvenIndex[i]=i;
-            }
+            if (i % 2 == 0) arrByEvenIndex[k++] = arr[i];
+            if (i % 2 == 1) arrByOddIndex[n++] = arr[i];
         }
-
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(arrByEvenIndex));
         System.out.println(Arrays.toString(arrByOddIndex));

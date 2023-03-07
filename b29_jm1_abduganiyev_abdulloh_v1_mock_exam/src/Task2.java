@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task2 {
@@ -13,42 +12,26 @@ public class Task2 {
 //  Input: -10, 0
 //  Output: max=-10, count=1
 
-        int[] arr = {10, 25, 10, -45, 6, 25, -100, 25, 8, 0};
 
-        max(arr);
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
 
-//        newArray();
+        int max = num;
+        int maxim = 1;
 
-
-    }
-
-    private static void max(int[] array) {
-        int big = 0;
-        int counter=0;
-
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if(array[i]< array[j]){
-                    big= array[j];
-                }
-                if(big==big){
-                    counter++;
-                }
+        while (true) {
+            num = scanner.nextInt();
+            if (num == 0) {
+                break;
+            } else if (num > max) {
+                max = num;
+                maxim = 1;
+            } else if (num == max) {
+                maxim++;
             }
         }
-        System.out.println("max="+big+" count="+counter);
+        System.out.println(max);
+        System.out.println(maxim);
     }
-
-/*
-    private static int[] newArray() {
-        Scanner scanner = new Scanner(System.in);
-
-        int[] array = new int[9];
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(i + 1 + "-sonni kiriting: ");
-            array[i] = scanner.nextInt();
-
-        }
-    } ret;*/
 }
 

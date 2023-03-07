@@ -6,6 +6,21 @@ public class Task5 {
         //  ("abc123xyz") => 123
         //     ("aa11b33") => 44
         //  ("7 11") =>18
+        String str = "11 7 ";
 
+        int sum = 0;
+        String s = "0";
+
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isDigit(str.charAt(i))) {
+                s += str.charAt(i);
+            } else {
+                sum += Integer.parseInt(s);
+                s = "0";
+            }
+        }
+        sum += Integer.parseInt(s);
+        System.out.println(sum);
     }
+
 }
