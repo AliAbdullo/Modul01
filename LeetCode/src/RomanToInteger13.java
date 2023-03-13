@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class RomanToInteger13 {
@@ -8,8 +7,10 @@ public class RomanToInteger13 {
         String rimRaqam = scanner.nextLine();
 
 //        System.out.println(Arrays.toString(romanToInt("III")));
-        ;
     }
+//    public static int romanToInt(String str){
+//
+//    }
 
  /*   public int romanToInt(String s) {
         int ans = 0;
